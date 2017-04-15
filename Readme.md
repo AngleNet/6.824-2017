@@ -24,3 +24,10 @@ should start to install the missing package automatically.
 * Vim
 * vscode-icons
 
+### 3. Go commands
+
+* go test
+
+>This should run all tests in current directory and all of its subdirectories:
+>go test ./...
+
