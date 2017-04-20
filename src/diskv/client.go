@@ -118,7 +118,7 @@ func (ck *Clerk) Get(key string) string {
 	}
 }
 
-// send a Put or Append request.
+// PutAppend send a Put or Append request.
 func (ck *Clerk) PutAppend(key string, value string, op string) {
 	ck.mu.Lock()
 	defer ck.mu.Unlock()
